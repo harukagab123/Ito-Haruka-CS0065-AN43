@@ -1,0 +1,27 @@
+Sentiment Analysis - 10 Sentences
+Enter sentence 1/10: I love this wonderful day.
+Positive (polarity: 0.7500)
+Enter sentence 2/10: This is an excellent result.
+Positive (polarity: 1.0000)
+Enter sentence 3/10: I am happy with the great service.
+Positive (polarity: 0.8000)
+Enter sentence 4/10: The food is delicious.
+Positive (polarity: 1.0000)
+Enter sentence 5/10: I hate this terrible experience.
+Negative (polarity: -0.9000)
+Enter sentence 6/10: The service was awful.
+Negative (polarity: -1.0000)
+Enter sentence 7/10: This is a bad and disappointing product.
+Negative (polarity: -0.6500)
+Enter sentence 8/10: The book is on the table.
+Neutral (polarity: 0.0000)
+Enter sentence 9/10: The meeting starts at ten.
+Neutral (polarity: 0.0000)
+Enter sentence 10/10: There are three chairs in the room.
+Neutral (polarity: 0.0000)
+
+SUMMARY
+Positive: 4
+Neutral: 3
+Negative: 3
+Total: 10

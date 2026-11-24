@@ -1,0 +1,19 @@
+Enter a sentence: I am happy and delighted, but sad.
+Happy words: 2
+Sad words: 1
+Analysis: Positive (happy)
+
+Enter a sentence: This is a bad, terrible and sad day.
+Happy words: 0
+Sad words: 3
+Analysis: Negative (sad)
+
+Enter a sentence: I am happy and sad.
+Happy words: 1
+Sad words: 1
+Analysis: Neutral
+
+Enter a sentence: The book is on the table.
+Happy words: 0
+Sad words: 0
+Analysis: Neutral
