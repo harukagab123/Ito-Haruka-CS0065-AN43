@@ -1,0 +1,403 @@
+{
+  "emails": {
+    "input_rows": 5728,
+    "missing_or_blank_removed": 0,
+    "duplicate_rows_removed": 33,
+    "retained_rows": 5695,
+    "tokens": 758407,
+    "unique_words": 33549,
+    "top_10": [
+      [
+        "enron",
+        13329
+      ],
+      [
+        "ect",
+        11411
+      ],
+      [
+        "vince",
+        8469
+      ],
+      [
+        "will",
+        8083
+      ],
+      [
+        "hou",
+        5575
+      ],
+      [
+        "please",
+        4913
+      ],
+      [
+        "kaminski",
+        4723
+      ],
+      [
+        "re",
+        3938
+      ],
+      [
+        "cc",
+        3869
+      ],
+      [
+        "pm",
+        3271
+      ]
+    ],
+    "class_counts": {
+      "spam": 1368,
+      "not_spam": 4327
+    }
+  },
+  "squad_contexts": {
+    "input_rows": 2067,
+    "missing_or_blank_removed": 0,
+    "duplicate_rows_removed": 0,
+    "retained_rows": 2067,
+    "tokens": 145495,
+    "unique_words": 21520,
+    "top_10": [
+      [
+        "one",
+        507
+      ],
+      [
+        "first",
+        471
+      ],
+      [
+        "new",
+        435
+      ],
+      [
+        "time",
+        431
+      ],
+      [
+        "many",
+        414
+      ],
+      [
+        "two",
+        382
+      ],
+      [
+        "abc",
+        380
+      ],
+      [
+        "states",
+        314
+      ],
+      [
+        "city",
+        309
+      ],
+      [
+        "th",
+        301
+      ]
+    ]
+  },
+  "squad_questions": {
+    "input_rows": 10570,
+    "missing_or_blank_removed": 0,
+    "duplicate_rows_removed": 31,
+    "retained_rows": 10539,
+    "tokens": 56333,
+    "unique_words": 10140,
+    "top_10": [
+      [
+        "many",
+        700
+      ],
+      [
+        "bowl",
+        345
+      ],
+      [
+        "tesla",
+        343
+      ],
+      [
+        "super",
+        340
+      ],
+      [
+        "luther",
+        330
+      ],
+      [
+        "year",
+        329
+      ],
+      [
+        "name",
+        327
+      ],
+      [
+        "type",
+        314
+      ],
+      [
+        "abc",
+        303
+      ],
+      [
+        "first",
+        299
+      ]
+    ]
+  },
+  "comparison": {
+    "article_count": 48,
+    "shared_top_10": [
+      "abc",
+      "first",
+      "many"
+    ],
+    "top_10_jaccard": 0.17647058823529413,
+    "contexts_per_10000": {
+      "abc": 26.12,
+      "bowl": 7.97,
+      "city": 21.24,
+      "first": 32.37,
+      "luther": 17.46,
+      "many": 28.45,
+      "name": 7.35,
+      "new": 29.9,
+      "one": 34.85,
+      "states": 21.58,
+      "super": 7.15,
+      "tesla": 18.42,
+      "th": 20.69,
+      "time": 29.62,
+      "two": 26.26,
+      "type": 3.78,
+      "year": 11.82
+    },
+    "questions_per_10000": {
+      "abc": 53.79,
+      "bowl": 61.24,
+      "city": 22.01,
+      "first": 53.08,
+      "luther": 58.58,
+      "many": 124.26,
+      "name": 58.05,
+      "new": 25.21,
+      "one": 30.89,
+      "states": 14.73,
+      "super": 60.36,
+      "tesla": 60.89,
+      "th": 13.85,
+      "time": 26.63,
+      "two": 28.76,
+      "type": 55.74,
+      "year": 58.4
+    }
+  },
+  "settings": {
+    "seed": 43,
+    "max_words": 100,
+    "stop_words": [
+      "a",
+      "about",
+      "above",
+      "after",
+      "again",
+      "against",
+      "all",
+      "also",
+      "am",
+      "an",
+      "and",
+      "any",
+      "are",
+      "aren't",
+      "as",
+      "at",
+      "be",
+      "because",
+      "been",
+      "before",
+      "being",
+      "below",
+      "between",
+      "both",
+      "but",
+      "by",
+      "can",
+      "can't",
+      "cannot",
+      "com",
+      "could",
+      "couldn't",
+      "did",
+      "didn't",
+      "do",
+      "does",
+      "doesn't",
+      "doing",
+      "don't",
+      "down",
+      "during",
+      "each",
+      "else",
+      "ever",
+      "few",
+      "for",
+      "from",
+      "further",
+      "get",
+      "had",
+      "hadn't",
+      "has",
+      "hasn't",
+      "have",
+      "haven't",
+      "having",
+      "he",
+      "he'd",
+      "he'll",
+      "he's",
+      "hence",
+      "her",
+      "here",
+      "here's",
+      "hers",
+      "herself",
+      "him",
+      "himself",
+      "his",
+      "how",
+      "how's",
+      "however",
+      "http",
+      "i",
+      "i'd",
+      "i'll",
+      "i'm",
+      "i've",
+      "if",
+      "in",
+      "into",
+      "is",
+      "isn't",
+      "it",
+      "it's",
+      "its",
+      "itself",
+      "just",
+      "k",
+      "let's",
+      "like",
+      "me",
+      "more",
+      "most",
+      "mustn't",
+      "my",
+      "myself",
+      "no",
+      "nor",
+      "not",
+      "of",
+      "off",
+      "on",
+      "once",
+      "only",
+      "or",
+      "other",
+      "otherwise",
+      "ought",
+      "our",
+      "ours",
+      "ourselves",
+      "out",
+      "over",
+      "own",
+      "r",
+      "same",
+      "shall",
+      "shan't",
+      "she",
+      "she'd",
+      "she'll",
+      "she's",
+      "should",
+      "shouldn't",
+      "since",
+      "so",
+      "some",
+      "subject",
+      "such",
+      "than",
+      "that",
+      "that's",
+      "the",
+      "their",
+      "theirs",
+      "them",
+      "themselves",
+      "then",
+      "there",
+      "there's",
+      "therefore",
+      "these",
+      "they",
+      "they'd",
+      "they'll",
+      "they're",
+      "they've",
+      "this",
+      "those",
+      "through",
+      "to",
+      "too",
+      "under",
+      "until",
+      "up",
+      "very",
+      "was",
+      "wasn't",
+      "we",
+      "we'd",
+      "we'll",
+      "we're",
+      "we've",
+      "were",
+      "weren't",
+      "what",
+      "what's",
+      "when",
+      "when's",
+      "where",
+      "where's",
+      "which",
+      "while",
+      "who",
+      "who's",
+      "whom",
+      "why",
+      "why's",
+      "with",
+      "won't",
+      "would",
+      "wouldn't",
+      "www",
+      "you",
+      "you'd",
+      "you'll",
+      "you're",
+      "you've",
+      "your",
+      "yours",
+      "yourself",
+      "yourselves"
+    ],
+    "token_rule": "lowercase ASCII words, length > 1"
+  }
+}

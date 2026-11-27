@@ -1,0 +1,4 @@
+*.pdf binary
+*.png binary
+data/* -text -whitespace
+output/*.csv -text -whitespace

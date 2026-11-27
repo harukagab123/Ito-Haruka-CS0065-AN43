@@ -1,0 +1,2 @@
+All checks passed: source hashes, full-corpus counts, duplicates,
+labels, cleaning, stop words, PNG validity and comparison metrics.

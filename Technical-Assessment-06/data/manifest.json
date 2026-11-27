@@ -1,0 +1,14 @@
+{
+  "emails.csv": {
+    "url": "https://raw.githubusercontent.com/bendgame/nlpBeginnerProjects/e7375ddd4465964a7b8c30fc68cacaf4a5328045/emails.csv",
+    "sha256": "a5d0d75d15d370ef2dd3229b30204b18deab6d3fd249206e89a2c58f901bcc77",
+    "bytes": 8954755,
+    "retrieved": "2026-11-27"
+  },
+  "squad-dev-v1.1.json": {
+    "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v1.1.json",
+    "sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9",
+    "bytes": 4854279,
+    "retrieved": "2026-11-27"
+  }
+}
